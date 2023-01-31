@@ -18,17 +18,6 @@ class PhoneBook extends Component {
     filter: '',
   };
 
-  //componentDidMount() {
-  //  const dataNumbers = JSON.parse(localStorage.getItem(LS_KEY));
-
-  //  if (dataNumbers) this.setState({ contacts: dataNumbers });
-  //}
-
-  //componentDidUpdate(prevState) {
-  //  if (this.state.contacts !== prevState.contacts)
-  //    localStorage.setItem(LS_KEY, JSON.stringify(this.setState.contacts));
-  //}
-
   componentDidMount() {
     const dataNumbers = JSON.parse(localStorage.getItem(LS_KEY));
 
